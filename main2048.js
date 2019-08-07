@@ -46,8 +46,8 @@ function updateBoardView() {
             if(board[i][j]==0){
                 theNumberCell.css('width','0px');
                 theNumberCell.css('height','0px');
-                theNumberCell.css('top','0px');
-                theNumberCell.css('left','0px');
+                theNumberCell.css('top',getPosTop(i,j)+50);
+                theNumberCell.css('left',getPosLeft(i,j)+50);
             }
             else {
                 theNumberCell.css('width','0px');
