@@ -11,6 +11,7 @@ function newGame() {
 
     //gernerate number randomly
     generateOneNumber();
+    generateOneNumber();
 
 }
 
@@ -69,12 +70,12 @@ function generateOneNumber() {
         return false;
 
     //position randomly
-    var randx = parseInt(Math.floor ( Math.random() * 4 ));
+    var randx = parseInt(Math.floor (Math.random() * 4));
     var randy = parseInt(Math.floor ( Math.random() * 4 ));
 
     while(true){
 
-        if(board[randx][randy]==0)
+        if( board[randx][randy] == 0 )
             break;
 
         randx = parseInt(Math.floor ( Math.random() * 4 ));
