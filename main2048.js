@@ -9,7 +9,8 @@ function newGame() {
     //initialize grid
     init();
 
-    //gernerate number
+    //gernerate number randomly
+    generateOneNumber();
 
 }
 
@@ -57,9 +58,36 @@ function updateBoardView() {
                 theNumberCell.css('background-color',getNumberBackgroundColor(board[i][j]));
                 theNumberCell.css('color',getNumberColor(board[i][j]));
                 theNumberCell.css(borad[i][j]);
-
             }
-
         }
     }
+}
+
+function generateOneNumber() {
+
+    if(nospace(board))
+        return false;
+
+    //position randomly
+    var randx = parseInt(Math.floor ( Math.random() * 4 ));
+    var randy = parseInt(Math.floor ( Math.random() * 4 ));
+
+    while(true){
+
+        if(board[randx][randy]==0)
+            break;
+
+        randx = parseInt(Math.floor ( Math.random() * 4 ));
+        randy = parseInt(Math.floor ( Math.random() * 4 ));
+    }
+
+    //position number
+    var randNumber = Math.random() < 0.5 ? 2 : 4;
+
+    //display number
+    board[randx][randy] = randNumber;
+    showNumberWithAnimation(randx, randy, randNumber);
+
+
+    return true;
 }
