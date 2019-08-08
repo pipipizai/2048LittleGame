@@ -190,23 +190,23 @@ function moveUp() {
             if( board[i][j] !== 0 ){
 
                 for( var k = 0 ; k<i ; k++){
-                    if( board[i][k] === 0 && noBlockHorizontal(i,k,j,board)){
+                    if( board[k][j] === 0 && noBlockVerticalUp(j,k,i,board)){
 
                         //move
-                        showMoveAnimation(i,j,i,k);
+                        showMoveAnimation(i,j,k,j);
                         // alert("ik=ij");
-                        board[i][k] = board[i][j];
+                        board[k][j] = board[i][j];
                         board[i][j] = 0;
                         continue;
                     }
-                    else if( board[i][k] === board[i][j] && noBlockHorizontal(i,k,j,board) ){
+                    else if( board[k][j] === board[i][j] && noBlockVerticalUp(j,k,i,board) ){
 
                         //move
-                        showMoveAnimation(i,j,i,k);
+                        showMoveAnimation(i,j,k,j);
 
                         //add
                         //    alert("ik++++ij");
-                        board[i][k] += board[i][j];
+                        board[k][j] += board[i][j];
                         board[i][j] = 0;
 
                         continue;
@@ -250,6 +250,49 @@ function moveRight() {
                         //add
                         //    alert("ik++++ij");
                         board[i][k] += board[i][j];
+                        board[i][j] = 0;
+
+                        continue;
+
+                    }
+                }
+            }
+        }
+
+    // updateBoardView();
+    setTimeout("updateBoardView()",200);
+
+    return true;
+}
+
+function moveDown() {
+
+    if(!canMoveDown(board))
+        return false;
+
+    //move up
+    for(var j=3; j>=0 ; j--)
+        for(var i=2 ; i>=0 ; i--){
+            if( board[i][j] !== 0 ){
+
+                for( var k = 3 ; k>i ; k--){
+                    if( board[k][j] === 0 && noBlockVerticalDown(j,k,i,board)){
+
+                        //move
+                        showMoveAnimation(i,j,k,j);
+                        // alert("ik=ij");
+                        board[k][j] = board[i][j];
+                        board[i][j] = 0;
+                        continue;
+                    }
+                    else if( board[k][j] === board[i][j] && noBlockVerticalDown(j,k,i,board) ){
+
+                        //move
+                        showMoveAnimation(i,j,k,j);
+
+                        //add
+                        //    alert("ik++++ij");
+                        board[k][j] += board[i][j];
                         board[i][j] = 0;
 
                         continue;
