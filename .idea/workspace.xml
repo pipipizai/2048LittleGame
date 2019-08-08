@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565098356335</updated>
-      <workItem from="1565098359053" duration="8913000" />
+      <workItem from="1565098359053" duration="23828000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1565174492820</created>
@@ -85,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565179756111</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2.3 generate number randomly">
+      <created>1565180563304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565180563304</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +113,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="2.1 Game Logic Code" />
     <MESSAGE value="2,2 analyse page initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="2,2 analyse page initialization" />
+    <MESSAGE value="2.3 generate number randomly" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.3 generate number randomly" />
   </component>
 </project>
