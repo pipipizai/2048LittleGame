@@ -61,7 +61,35 @@ function canMoveLeft(board) {
     return false;
 }
 
+function canMoveRight(board) {
+
+    for(var i=3; i>=0 ; i--)
+        for(var j=2 ; j>=0 ; j--)
+            if ( board[i][j] !== 0 )
+                if( board[i][j+1] === 0 || board[i][j+1] === board[i][j])
+                    return true;
+
+    return false;
+}
+
+//i k j board
 function noBlockHorizontal(row,col1, col2, board) {
+
+    for(var i = col1 + 1; i<col2 ; i++)
+        if(board[row][i] !== 0)
+            return false;
+
+    return true;
+}
+
+function noBlockHorizontalRgiht( row , col1 , col2 , board ){
+    for( var k = col1 - 1 ; k > col2 ; k -- )
+        if( board[row][k] != 0 )
+            return false;
+    return true;
+}
+
+function noBlockVertical(row,col1, col2, board) {
 
     for(var i = col1 + 1; i<col2 ; i++)
         if(board[row][i] !== 0)

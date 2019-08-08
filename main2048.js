@@ -178,3 +178,89 @@ function moveLeft() {
 
     return true;
 }
+
+function moveUp() {
+
+    if(!canMoveUp(board))
+        return false;
+
+    //move up
+    for(var j=0; j<4 ; j++)
+        for(var i=1 ; i<4 ; i++){
+            if( board[i][j] !== 0 ){
+
+                for( var k = 0 ; k<i ; k++){
+                    if( board[i][k] === 0 && noBlockHorizontal(i,k,j,board)){
+
+                        //move
+                        showMoveAnimation(i,j,i,k);
+                        // alert("ik=ij");
+                        board[i][k] = board[i][j];
+                        board[i][j] = 0;
+                        continue;
+                    }
+                    else if( board[i][k] === board[i][j] && noBlockHorizontal(i,k,j,board) ){
+
+                        //move
+                        showMoveAnimation(i,j,i,k);
+
+                        //add
+                        //    alert("ik++++ij");
+                        board[i][k] += board[i][j];
+                        board[i][j] = 0;
+
+                        continue;
+
+                    }
+                }
+            }
+        }
+
+    // updateBoardView();
+    setTimeout("updateBoardView()",200);
+
+    return true;
+}
+
+function moveRight() {
+
+    if(!canMoveRight(board))
+        return false;
+
+    //move right
+    for(var i=3; i>=0 ; i--)
+        for(var j=2 ; j>=0 ; j--){
+            if( board[i][j] !== 0 ){
+
+                for( var k = 3 ; k>j ; k--){
+                    if( board[i][k] === 0 && noBlockHorizontalRgiht(i,k,j,board)){
+
+                        //move
+                        showMoveAnimation(i,j,i,k);
+                        // alert("ik=ij");
+                        board[i][k] = board[i][j];
+                        board[i][j] = 0;
+                        continue;
+                    }
+                    else if( board[i][k] === board[i][j] && noBlockHorizontalRgiht(i,k,j,board) ){
+
+                        //move
+                        showMoveAnimation(i,j,i,k);
+
+                        //add
+                        //    alert("ik++++ij");
+                        board[i][k] += board[i][j];
+                        board[i][j] = 0;
+
+                        continue;
+
+                    }
+                }
+            }
+        }
+
+    // updateBoardView();
+    setTimeout("updateBoardView()",200);
+
+    return true;
+}

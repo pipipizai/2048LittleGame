@@ -4,7 +4,6 @@
     <list default="true" id="eb965793-b6c3-44f1-b706-ee2c47ce8fd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main2048.js" beforeDir="false" afterPath="$PROJECT_DIR$/main2048.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showanimation2048.js" beforeDir="false" afterPath="$PROJECT_DIR$/showanimation2048.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/support2048.js" beforeDir="false" afterPath="$PROJECT_DIR$/support2048.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565098356335</updated>
-      <workItem from="1565098359053" duration="23828000" />
+      <workItem from="1565098359053" duration="27939000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1565174492820</created>
@@ -92,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565180563304</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3.4 move left">
+      <created>1565280814314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565280814314</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +120,7 @@
     <MESSAGE value="2.1 Game Logic Code" />
     <MESSAGE value="2,2 analyse page initialization" />
     <MESSAGE value="2.3 generate number randomly" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.3 generate number randomly" />
+    <MESSAGE value="3.4 move left" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.4 move left" />
   </component>
 </project>
