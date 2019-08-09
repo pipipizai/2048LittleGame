@@ -60,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565098356335</updated>
-      <workItem from="1565098359053" duration="33951000" />
+      <workItem from="1565098359053" duration="35362000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1565174492820</created>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565320901297</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="4.3 debug: hasConflited">
+      <created>1565321825753</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565321825753</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +159,7 @@
     <MESSAGE value="move up &amp; down" />
     <MESSAGE value="4.1 Game over" />
     <MESSAGE value="4.2 Update score" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.2 Update score" />
+    <MESSAGE value="4.3 debug: hasConflited" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.3 debug: hasConflited" />
   </component>
 </project>
