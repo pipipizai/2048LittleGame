@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb965793-b6c3-44f1-b706-ee2c47ce8fd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565098356335</updated>
-      <workItem from="1565098359053" duration="39573000" />
+      <workItem from="1565098359053" duration="39946000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1565174492820</created>
@@ -145,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565331458317</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="5.5 responsive screen">
+      <created>1565332273869</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1565332273869</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test">
+      <created>1565332492880</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1565332492880</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +177,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="2.1 Game Logic Code" />
     <MESSAGE value="2,2 analyse page initialization" />
     <MESSAGE value="2.3 generate number randomly" />
@@ -175,6 +188,7 @@
     <MESSAGE value="4.3 debug: hasConflited" />
     <MESSAGE value="4.4 improve randomly generate number algorithm" />
     <MESSAGE value="5.5 responsive screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.5 responsive screen" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
