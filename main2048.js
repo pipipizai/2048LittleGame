@@ -105,26 +105,26 @@ $(document).keydown(function (event){
         case 37: //left
           //  alert("zuo");
             if( moveLeft() ){
-                generateOneNumber();
-                isGameOver();
+                setTimeout("generateOneNumber()",210);
+                setTimeout("isGameOver()",300);
             }
             break;
         case 38: //up
             if( moveUp() ){
-                generateOneNumber();
-                isGameOver();
+                setTimeout("generateOneNumber()",210);
+                setTimeout("isGameOver()",300);
             }
             break;
         case 39: //right
             if( moveRight() ){
-                generateOneNumber();
-                isGameOver();
+                setTimeout("generateOneNumber()",210);
+                setTimeout("isGameOver()",300);
             }
             break;
         case 40: //down
             if( moveDown() ){
-                generateOneNumber();
-                isGameOver();
+                setTimeout("generateOneNumber()",210);
+                setTimeout("isGameOver()",300);
             }
             break;
         default:
@@ -134,6 +134,13 @@ $(document).keydown(function (event){
 
 function isGameOver() {
 
+    if(nospace(board) && noMove(board)){
+        gameOver();
+    }
+}
+
+function gameOver() {
+    alert("Game  Over!")
 }
 
 function moveLeft() {
