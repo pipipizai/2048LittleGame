@@ -4,7 +4,7 @@
     <list default="true" id="eb965793-b6c3-44f1-b706-ee2c47ce8fd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main2048.js" beforeDir="false" afterPath="$PROJECT_DIR$/main2048.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support2048.js" beforeDir="false" afterPath="$PROJECT_DIR$/support2048.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showanimation2048.js" beforeDir="false" afterPath="$PROJECT_DIR$/showanimation2048.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565098356335</updated>
-      <workItem from="1565098359053" duration="32023000" />
+      <workItem from="1565098359053" duration="33021000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1565174492820</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565287437887</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="4.1 Game over">
+      <created>1565319870571</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565319870571</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +144,7 @@
     <MESSAGE value="3.4 move left" />
     <MESSAGE value="move right" />
     <MESSAGE value="move up &amp; down" />
-    <option name="LAST_COMMIT_MESSAGE" value="move up &amp; down" />
+    <MESSAGE value="4.1 Game over" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.1 Game over" />
   </component>
 </project>

@@ -25,3 +25,12 @@ function showMoveAnimation(fromx, fromy, tox, toy) {
     }, 200);
 
 }
+
+function updateScore(score) {
+    /**
+     * //todo update effect
+     */
+
+    $('#score').text(score);
+
+}
